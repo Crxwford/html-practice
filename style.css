@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;   /* stack items vertically */
+    align-items: center;      /* horizontal centering */
+    text-align: center;       /* center text */
+}
+
+hr {
+    width: 80%;
+    border: none;
+    height: 2px;
+    background-color:#400;
+    margin: 30px 0;
+}
+
+.borderimg {
+  border: 10px solid transparent; /* REQUIRED */
+  padding: 15px;
+
+  border-image-source: url("border.png");
+  border-image-slice: 30;
+  border-image-repeat: stretch;
+}
